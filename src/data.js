@@ -2,6 +2,8 @@ import tour1 from './images/tour-1.jpeg'
 import tour2 from './images/tour-2.jpeg'
 import tour3 from './images/tour-3.jpeg'
 import tour4 from './images/tour-4.jpeg'
+import tour5 from './images/tour-5.jpeg'
+import tour6 from './images/tour-6.jpeg'
 
 
 export const pageLinks = [
@@ -80,4 +82,27 @@ export const tours = [
         duration: '20 days',
         price: 'from $3300',
     },
+    {
+        id:5,
+        img: tour5,
+        date: 'may 31st, 2019',
+        title: 'zebra discovery',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
+        location: 'ethiopia',
+        icon: 'fas fa-map',
+        duration: '16 days',
+        price: 'from $3600',
+    },
+    {
+        id:6,
+        img: tour6,
+        date: 'april 12th, 2019',
+        title: 'journey to Taj Mahal',
+        text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.',
+        location: 'india',
+        icon: 'fas fa-map',
+        duration: '40 days',
+        price: 'from $7300',
+    },
+
 ]
